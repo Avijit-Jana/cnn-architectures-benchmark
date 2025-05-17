@@ -1,17 +1,22 @@
-<h1 align="center">CNN Architectures Benchmark</h1>
+<div align="center">
 
+# CNN Architectures Benchmark
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Avijit-Jana/cnn-architectures-benchmark?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Avijit-Jana/cnn-architectures-benchmark?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/Avijit-Jana/cnn-architectures-benchmark?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/Avijit-Jana/cnn-architectures-benchmark?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Avijit-Jana/cnn-architectures-benchmark?color=red&style=plastic)
 
-<h2>Table of Contents</h2>
+</div>
+
+## Table of Contents
 
 - [📖**Project Description**](#project-description)
 - [🧑‍💼**Business Use Cases**](#business-use-cases)
 - [📁**Data Set Explanation**](#data-set-explanation)
-- [🚩**Approach**](#how-to-approach-this-project)
-- [**Project Evaluation Metrics**](#project-evaluation-metrics)
+- [**📊Project Evaluation Metrics**](#project-evaluation-metrics)
+- [**🚩How to Approach this Project**](#how-to-approach-this-project)
 
 ## 📖Project Description
 
@@ -42,11 +47,24 @@ The insights from this project can be applied in various business scenarios, inc
 **The datasets are chosen to cover a variety of image classification tasks:**
 
 - **MNIST and FMNIST** provide simpler tasks with grayscale images, allowing for the evaluation of basic image recognition capabilities.
-- **CIFAR-10** offers a more complex task with color images, testing the models ’abilities to handle more detailed and varied data.
+- **CIFAR-10** offers a more complex task with color images, testing the models 'abilities to handle more detailed and varied data.
 
-## How to Approach this Project
+## 📊Project Evaluation Metrics
 
-## Project Evaluation Metrics
+The success and effectiveness of the project will be evaluated using the following metrics: -
 
-The success and effectiveness of the project will be evaluated using the following metrics: - Accuracy: The proportion of correct predictions out of the total predictions made. - Precision: The proportion of true positive predictions out of all positive predictions made. - Recall: The proportion of true positive predictions out of all actual positives. - F1-score: The harmonic mean of precision and recall. - Loss: The value of the loss function during training and testing. 
-<h3 align="middle">Developed By - Avijit Jana</h3>
+- **Accuracy:** The proportion of correct predictions out of the total predictions made.
+- **Precision:** The proportion of true positive predictions out of all positive predictions made.
+- **Recall:** The proportion of true positive predictions out of all actual positives.
+- **F1-score:** The harmonic mean of precision and recall.
+- **Loss:** The value of the loss function during training and testing.
+
+## 🚩How to Approach this Project
+
+To understand the project, check out the [**Approach File**](https://github.com/Avijit-Jana/cnn-architectures-benchmark/blob/main/Approach.md).
+
+<div align="middle">
+
+![](https://img.shields.io/badge/Developed%20By-Avijit_Jana-yellow)
+
+</div>
