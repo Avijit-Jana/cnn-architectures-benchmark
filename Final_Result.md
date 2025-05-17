@@ -24,8 +24,9 @@
 
 ### Conclusion
 
-The classification report for MNIST dataset shows that the AlexNet model achieved the highest accuracy among all models, with an accuracy of 0.9797. The ResNet18 model had the lowest accuracy among the models tested, with an accuracy of 0.6697. The LeNet-5 model had an accuracy of 0.8805, while the GoogleNet model had an accuracy of 0.9949.
+Based on the analysis of this second set of results Googlenet again achieves the highest performance with exceptional accuracy, confirming its strength on this dataset. Alexnet shows significantly improved and very strong performance, proving to be a highly capable architecture for this task, close behind Googlenet. Lenet-5's performance also improved but remains significantly lower than Alexnet and Googlenet, indicating its simpler structure is less effective for achieving top results. Resnet18 consistently exhibits the lowest performance across both tests, suggesting it is the least suitable or optimally configured architecture among the four for this specific task.
 
+---
 ## Classification Report Summary for FMNIST
 
 1. **For lenet-5 model**
@@ -50,8 +51,9 @@ The classification report for MNIST dataset shows that the AlexNet model achieve
 
 ### Conclusion
 
-The classification report for FMNIST dataset shows that the AlexNet model achieved the highest accuracy among all models, with an accuracy of 0.8514. The ResNet18 model had the lowest accuracy among the models tested, with an accuracy of 0.6707. The LeNet-5 model had an accuracy of 0.7798, while the GoogleNet model had an accuracy of 0.9303.
+Based on the analysis of the results Googlenet demonstrated superior performance across all metrics, indicating its complex architecture with inception modules is highly effective for this task. Alexnet showed moderate performance, better than simpler models but not reaching Googlenet's level. Lenet-5, a foundational architecture, performed the lowest among the older models, suggesting its simplicity is a limitation here. Surprisingly, Resnet18 underperformed significantly, highlighting that performance can vary depending on the specific architecture variant and dataset characteristics.
 
+---
 ## Classification Report Summary for CIFAR-10
 
 1. **For lenet-5 model**
@@ -72,4 +74,5 @@ The classification report for FMNIST dataset shows that the AlexNet model achiev
     * **Weighted Average:** Precision: 0.4299, Recall: 0.4288, F1-Score: 0.4213
 
 ### Conclusion
-The classification report for CIFAR-10 dataset shows that the AlexNet model achieved the highest accuracy among all models, with an accuracy of 0.4647. The ResNet18 model had the lowest accuracy among the models tested, with an accuracy of 0.4288. The LeNet-5 model had an accuracy of 0.4032, while the GoogleNet model had an accuracy of 0.7846.
+
+Based on the performance results for CIFAR-10 Googlenet demonstrates superior performance, indicating its advanced architecture is highly effective for this more complex image dataset. Alexnet performs moderately well but is significantly outperformed by Googlenet. Resnet18 shows better capability than Lenet-5 on CIFAR-10, suggesting some advantage from its structure, although it lags behind Alexnet and Googlenet. Lenet-5 proves least effective on CIFAR-10, highlighting its limitations on datasets more complex than grayscale digits.
