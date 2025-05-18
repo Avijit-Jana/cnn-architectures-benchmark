@@ -65,6 +65,6 @@ To understand the project, check out the [**Approach File**](https://github.com/
 
 <div align="middle">
 
-![](https://img.shields.io/badge/Developed%20By-Avijit_Jana-yellow)
+![Badge](https://img.shields.io/badge/Developed%20By-Avijit_Jana-blueviolet?style=for-the-badge)
 
 </div>
