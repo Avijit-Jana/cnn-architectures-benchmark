@@ -14,6 +14,14 @@
 
 ## Necessary Imports
 
+First Install dependencies:
+
+```bash
+!pip install timm -q
+```
+
+Then import the necessary libraries:
+
 ```python
 import os, time, copy
 from tqdm import tqdm
@@ -34,7 +42,7 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support, cla
 
 `get_dataset` loads and prepares common image datasets (MNIST, FashionMNIST, CIFAR10) for PyTorch. It:
 
-- Accepts `name`, `batch_size`, and `data_dir`.
+- Accepts `name`, `batch_size`, and `data_dir`, `train_fraction`.
 - Selects the dataset, sets `num_classes`, and applies appropriate transforms (resize, tensor conversion, normalization).
 - Loads train and validation/test splits, downloading if needed.
 - Returns PyTorch DataLoaders for train/val and the number of classes.
@@ -46,7 +54,7 @@ from sklearn.metrics import accuracy_score, precision_recall_fscore_support, cla
 `get_model` creates a neural network model based on the given name:
 
 - If `lenet5`, returns a custom LeNet5 implementation (supports grayscale or RGB).
-- Otherwise, uses the `timm` library to load popular models (e.g., AlexNet, ResNet), with options for pretrained weights and custom output classes.
+- Otherwise, uses the `timm` and `torchvision` library to load popular models (e.g., AlexNet, ResNet, GoogleNet), with options for pretrained weights and custom output classes.
 - Raises an error for unsupported names.
 
 ---
