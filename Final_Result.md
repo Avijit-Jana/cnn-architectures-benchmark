@@ -29,9 +29,9 @@
 
 <table>
     <tr>
-    <td><img src="assets\images\MNIST_accuracy.png" alt="accuracy" width="250"></td>
-    <td><img src="assets\images\MNIST_macro_average.png" alt="macro_average" width="250"></td>
-    <td><img src="assets\images\MNIST_weighted_average.png" alt="weighted_average" width="250"></td>
+    <td><img src="assets\images\MNIST_accuracy.png" alt="accuracy" width="300"></td>
+    <td><img src="assets\images\MNIST_macro_average.png" alt="macro_average" width="300"></td>
+    <td><img src="assets\images\MNIST_weighted_average.png" alt="weighted_average" width="300"></td>
     </tr>
 </table>
 
@@ -70,9 +70,9 @@ Among the five architectures trained from scratch on MNIST, GoogLeNet achieved t
 
 <table>
     <tr>
-    <td><img src="assets\images\FMNIST_accuracy.png" alt="accuracy" width="250"></td>
-    <td><img src="assets\images\FMNIST_macro_average.png" alt="macro_average" width="250"></td>
-    <td><img src="assets\images\FMNIST_weighted_average.png" alt="weighted_average" width="250"></td>
+    <td><img src="assets\images\FMNIST_accuracy.png" alt="accuracy" width="300"></td>
+    <td><img src="assets\images\FMNIST_macro_average.png" alt="macro_average" width="300"></td>
+    <td><img src="assets\images\FMNIST_weighted_average.png" alt="weighted_average" width="300"></td>
     </tr>
 </table>    
 
@@ -107,9 +107,9 @@ Based on the analysis of the results Googlenet demonstrated superior performance
 
 <table>
     <tr>
-    <td><img src="assets\images\CIFAR10_accuracy.png" alt="accuracy" width="250"></td>
-    <td><img src="assets\images\CIFAR10_macro_average.png" alt="macro_average" width="250"></td>
-    <td><img src="assets\images\CIFAR10_weighted_average.png" alt="weighted_average" width="250"></td>
+    <td><img src="assets\images\CIFAR10_accuracy.png" alt="accuracy" width="300"></td>
+    <td><img src="assets\images\CIFAR10_macro_average.png" alt="macro_average" width="300"></td>
+    <td><img src="assets\images\CIFAR10_weighted_average.png" alt="weighted_average" width="300"></td>
     </tr>
 </table>    
 
