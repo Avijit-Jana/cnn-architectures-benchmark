@@ -61,7 +61,14 @@ The success and effectiveness of the project will be evaluated using the followi
 
 ## 🚩How to Approach this Project
 
-To understand the project, check out the [**Approach File**](https://github.com/Avijit-Jana/cnn-architectures-benchmark/blob/main/Approach.md).
+- To understand the project, check out the [**Approach File**](https://github.com/Avijit-Jana/cnn-architectures-benchmark/blob/main/Approach.md).
+
+- You can download all the dependencies by running the [**requirements.txt**](https://github.com/Avijit-Jana/cnn-architectures-benchmark/blob/main/requirements.txt) file using the following command:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+- Also check out the [**Final Report**](https://github.com/Avijit-Jana/cnn-architectures-benchmark/blob/main/Final_Result.md) for more details about the outcome of the project.
 
 <div align="middle">
 
